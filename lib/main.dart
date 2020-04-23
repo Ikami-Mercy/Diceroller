@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
+
           title: Text(
             'Dice Roller',
-            style: TextStyle(color: Colors.white, fontSize: 24),
+            style: TextStyle(color: Colors.white, fontSize: 24, fontFamily: 'CormorantGaramond'),
             textAlign: TextAlign.center,
           ),
           backgroundColor: Colors.red.shade900,
