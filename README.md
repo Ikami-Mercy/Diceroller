@@ -1,4 +1,4 @@
-# dicee
+# Flutter dice roller
 
 A new Flutter application.
 
