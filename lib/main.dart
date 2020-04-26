@@ -8,8 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Dice Challenge',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.red,fontFamily: 'CormorantGaramond'
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -27,28 +28,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
-//class DicePage extends StatelessWidget {
-//  @override
-//  Widget build(BuildContext context) {
-//    var leftDiceNumber=1;
-//    return Center(
-//      child: Row(
-//        children: <Widget>[
-//          Expanded(
-//              child: FlatButton(
-//            onPressed: () {},
-//            child: Image.asset(
-//              'images/dice1.png',
-//            ),
-//          )),
-//          Expanded(
-//              child: FlatButton(child: Image.asset('images/dice3.png'))),
-//        ],
-//      ),
-//    );
-//  }
-//}
 class DicePage extends StatefulWidget {
   @override
   _DicePageState createState() => _DicePageState();
